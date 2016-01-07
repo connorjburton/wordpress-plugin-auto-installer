@@ -24,13 +24,13 @@ This is only intended for use on a development environment.
 
 - Open Terminal
 - Navigate to the plugins folder you would like to install the plugins in
-- Run ``` pm_wp_plugins ```
+- Run ``` wp_plugins ```
 - Log into your WP Admin and active the plugins
 - Done!
 
 ## Updates
 
-If there are any updates to the plugins list just run ``` pm_wp_plugins ``` again in the same directory and it will be installed.
+If there are any updates to the plugins list just run ``` wp_plugins ``` again in the same directory and it will be installed.
 
 If there are any updates to the auto installer itself, you will need to follow the One off installation guide again.
 
@@ -39,8 +39,8 @@ If there are any updates to the auto installer itself, you will need to follow t
 If you ever want to uninstall the auto installer:
 
 - Open Terminal
-- Run ``` rm ~/.pm-wp-plugins-install.sh ```
+- Run ``` rm ~/.wp-plugins-install.sh ```
 - Run ``` nano ~/.bash_profile ```
-- Remove the line ``` source ~/.pm-wp-plugins-install.sh ```
+- Remove the line ``` source ~/.wp-plugins-install.sh ```
 - Press ``` CMD + X ``` and then ``` Y ```
 - Everything is back to the way it was
