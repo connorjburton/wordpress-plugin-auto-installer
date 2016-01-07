@@ -1,7 +1,7 @@
 function wp_plugins() {
 
 	#!/bin/sh
-	wget -q "http:///dist/plugins.txt"
+	wget -q "https://raw.githubusercontent.com/connorjburton/wordpress-plugin-auto-installer/master/dist/plugins.txt"
 	file="plugins.txt"
 
 	while read p || [[ -n $p ]]; do
