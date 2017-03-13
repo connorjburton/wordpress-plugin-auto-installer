@@ -1,6 +1,6 @@
 #Wordpress Plugin Auto Installer
 
-Useful for teams installing the same plugins on each worpdress install each time.
+Useful for teams installing the same plugins on each wordpress install each time.
 
 ## Prerequisites
 
